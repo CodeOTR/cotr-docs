@@ -3,9 +3,32 @@ title: cotrPrint
 description: A guide in my new Starlight docs site.
 ---
 
-Guides lead a user through a specific task they want to accomplish, often with a sequence of steps.
-Writing a good guide requires thinking about what your users are trying to do.
+Outputs a statement that will print a string to the console.
 
-## Further reading
+**Aliases**:
+- cotrPrint
+- print
+- log
+- systemOut
+- write
+- consoleLog
 
-- Read [about how-to guides](https://diataxis.fr/how-to-guides/) in the Diátaxis framework
+## JavaScript
+
+```javascript
+console.log('Your message here');
+```
+
+## TypeScript
+
+```typescript
+console.log('Your message here');
+``` 
+
+## Rust
+
+```rust
+println!("{'Your message here'}");
+```
+
+
