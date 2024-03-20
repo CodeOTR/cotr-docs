@@ -8,15 +8,12 @@ export default defineConfig({
       title: "COTR Snippets",
       customCss: ["./src/styles/custom.css"],
       social: {
-        github: "https://github.com/withastro/starlight",
+        github: "https://github.com/CodeOTR/cotr-snippets",
       },
       sidebar: [
         {
           label: "Snippets",
-          items: [
-            // Each item here is one entry in the navigation menu.
-            { label: "cotrPrint", link: "/cotrprint" },
-          ],
+		  autogenerate: { directory: "snippets" },
         },
         {
           label: "Languages",

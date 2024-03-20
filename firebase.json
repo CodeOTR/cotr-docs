@@ -1,7 +1,7 @@
 {
   "hosting": {
     "site": "docs-on-the-rocks",
-    "source": ".",
+    "public": "dist",
     "ignore": [
       "firebase.json",
       "**/.*",
